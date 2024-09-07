@@ -6,6 +6,12 @@ It was poorly made, but looked really nice, so i decided to optimize it and add 
 
 ![scroll](https://github.com/user-attachments/assets/b6ffceec-9080-4aeb-b219-376b0910c837)
 
+## How to use it?
+1. Main scroll mechanic is in prefab folder. Just drag and drop it on your scene.
+2. Then you need to initialize it by your own script, or you can youse Example Bootstrap like on example scene.
+You need to have a list of string for initialization. Call .Initialize method in ScrollMechanic.cs
+3. Now get current value by according method. Remember, that it will be just index of your initial data.
+
 ## Why this is better, than initial asset?
 ### Optimization differences
 1. Removed all **.GetComponent** from Update method
